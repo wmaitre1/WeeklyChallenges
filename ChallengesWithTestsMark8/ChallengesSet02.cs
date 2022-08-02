@@ -14,9 +14,8 @@ namespace ChallengesWithTestsMark8
 
         public bool CountOfElementsIsEven(string[] vals)
 
-        { 
-
-            if(vals.Length % 2 == 0)
+        {
+            if (vals.Length % 2 == 0)
             {
                 return true;
             }
@@ -24,6 +23,7 @@ namespace ChallengesWithTestsMark8
             {
                 return false;
             }
+
         }
 
 
