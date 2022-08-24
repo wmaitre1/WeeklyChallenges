@@ -8,8 +8,6 @@ namespace ChallengesWithTestsMark8
     {
         public bool CollectionContainsWord(IEnumerable<string> words, string word, bool ignoreCase)
         {
-            throw new NotImplementedException();
-
             bool containsWord = false;
 
             if (string.Equals(words, null) || words.Contains(null))
@@ -36,8 +34,6 @@ namespace ChallengesWithTestsMark8
 
         public bool IsPrimeNumber(int num)
         {
-            throw new NotImplementedException();
-
             var isPrime = false;
 
             if (num >= 0)
@@ -63,8 +59,6 @@ namespace ChallengesWithTestsMark8
 
         public int IndexOfLastUniqueLetter(string str)
         {
-            throw new NotImplementedException();
-
             int index = -1;
             bool uindex;
 
@@ -90,8 +84,7 @@ namespace ChallengesWithTestsMark8
 
         public int MaxConsecutiveCount(int[] numbers)
         {
-            throw new NotImplementedException();
-
+        
             int count = 0;
 
             for (int i = 0; i < numbers.Length; i++)
@@ -118,8 +111,6 @@ namespace ChallengesWithTestsMark8
 
         public double[] GetEveryNthElement(List<double> elements, int n)
             {
-                throw new NotImplementedException();
-
             List<double> nthElement = new List<double>();
             double[] nullCheck = new double[0];
 
