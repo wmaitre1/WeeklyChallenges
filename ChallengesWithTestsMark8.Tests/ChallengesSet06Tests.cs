@@ -135,6 +135,7 @@ namespace ChallengesWithTestsMark8.Tests
         [InlineData(new double[] { }, 1, new double[] { })]
         [InlineData(null, 0, new double[] { })]
         [InlineData(null, 1, new double[] { })]
+
         public void GetEveryNthElement_List(double[] numbers, int n, double[] expected)
         {
             // Arrange
@@ -150,6 +151,9 @@ namespace ChallengesWithTestsMark8.Tests
             {
                 Assert.Equal(Math.Round(expected[i], 4), Math.Round(actual[i], 4));
             }
+
         }
+
+
     }
 }
